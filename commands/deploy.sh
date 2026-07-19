@@ -26,4 +26,4 @@ docker compose -f "$COMPOSE_FILE" up -d --build --remove-orphans \
 echo "🧹 Removing unused images..."
 docker image prune -f
 
-echo "✅ Deployment completed successfully."
+echo "✅ Deployment completed successfully"
